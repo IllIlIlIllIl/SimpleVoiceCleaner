@@ -1,0 +1,3 @@
+[workspace]
+members = ["simple_voice_cleaner", "xtask"]
+resolver = "2"

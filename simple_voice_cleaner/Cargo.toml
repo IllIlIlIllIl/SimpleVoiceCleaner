@@ -1,0 +1,13 @@
+[package]
+name = "simple_voice_cleaner"
+version = "0.1.1"
+edition = "2021"
+authors = ["Your Name"]
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+nih_plug = { git = "https://github.com/robbert-vdh/nih-plug.git" }
+nih_plug_egui = { git = "https://github.com/robbert-vdh/nih-plug.git" }
